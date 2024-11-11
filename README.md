@@ -1,6 +1,6 @@
 # Modern Todo List Application
 
-A clean and modern Todo List application built with PySide6, featuring task management with categories, status tracking, and due dates.
+A clean and modern Todo List application built with PySide6, featuring task management with categories.
 
 ![Todo List App Screenshot](screenshot.png)
 
@@ -8,11 +8,8 @@ A clean and modern Todo List application built with PySide6, featuring task mana
 
 - 📝 Create, edit, and delete tasks
 - 📋 Categorize tasks (Work, Personal, Shopping, Other)
-- ✅ Track task status (Not Started, In Progress, Completed)
-- 📅 Set due dates for tasks
-- 🔍 Filter tasks by category and status
+- 🔍 Filter tasks by category
 - 🎨 Modern and clean user interface
-- 💫 Interactive hover effects
 
 ## Requirements
 
@@ -50,15 +47,12 @@ python todo.py
 
 1. Enter your task in the input field
 2. Select a category (Work, Personal, Shopping, Other)
-3. Choose a status (Not Started, In Progress, Completed)
-4. Set a due date
-5. Click "Add Task"
+3. Click "Add Task"
 
 ### Managing Tasks
 
 - **Edit**: Select a task and click "Edit"
 - **Delete**: Select a task and click "Delete"
-- **Change Status**: Select a task and click "Change Status"
 - **Clear All**: Remove all tasks with "Clear All"
 
 ### Filtering Tasks
@@ -66,7 +60,6 @@ python todo.py
 Use the dropdown menus at the top to filter tasks by:
 
 - Category (All Categories, Work, Personal, Shopping, Other)
-- Status (All Status, Not Started, In Progress, Completed)
 
 ## Project Structure
 
